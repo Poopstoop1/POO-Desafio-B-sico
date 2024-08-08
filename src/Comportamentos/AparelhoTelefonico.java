@@ -1,8 +1,9 @@
 package Comportamentos;
 
 public class AparelhoTelefonico {
-	public void ligar() {
-     System.out.println("Ligando!!");
+	public void ligar(String numero) {
+     System.out.println("Ligando para o " + numero);
+     
 	}
 
 	public void atender() {

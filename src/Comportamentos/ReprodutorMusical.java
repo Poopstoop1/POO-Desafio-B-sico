@@ -11,7 +11,8 @@ public class ReprodutorMusical {
     	System.out.println("Pausando musica.");
     }
     
-    public void selecionar() {
-    	System.out.println("Selecionando musica");
+    public void selecionarMusica(String musica) {
+    	System.out.println("Selecionando musica " + musica);
+    	
     }
 }
